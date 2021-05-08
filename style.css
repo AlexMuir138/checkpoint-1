@@ -1,0 +1,50 @@
+:root{
+
+}
+
+
+.card-float{
+  transform: translateY(4rem);
+}
+.card-row{
+  font-family: 'Libre Baskerville', serif;
+}
+.cta-box{
+  position: absolute;
+  top: 0;
+}
+
+
+.hero{
+  height: 100vh;
+  background-image: url(https://jennamolby.com/wp-content/uploads/2015/12/stock-snap.jpg);
+  background-size: cover;
+  justify-content: space-evenly;
+}
+
+.transform{
+  transform: translateY(10rem);
+}
+
+@media screen and (max-width: 992px) {
+  .cta-box{
+    position: relative;
+  }
+  
+}
+
+@media screen and (max-width: 992px){
+  .text-image{
+    display: none;
+  }
+  
+}
+@media screen and (max-width: 992px){
+  .card-float{
+    transform: translateY(0rem);
+  }
+  
+}
+
+
+
